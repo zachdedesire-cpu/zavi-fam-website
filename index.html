@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZaVi Fam | Fashion</title>
+<meta name="description" content="ZaVi Fam — Your style. Your confidence. Your family.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#home"><b>ZF</b><span>ZaVi Fam</span></a>
+  <button id="menu">☰</button>
+  <nav id="nav"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section id="home" class="hero">
+  <div>
+    <small>WELCOME TO ZAVI FAM</small>
+    <h1>Wear your style.<br><i>Own your confidence.</i></h1>
+    <p>Modern fashion for people who want to look good, feel confident and express who they are.</p>
+    <a class="btn" href="#shop">Explore collection</a>
+  </div>
+  <div class="hero-art"><div class="art a">NEW<br>STYLE</div><div class="art b">ZAVI<br>FAM</div></div>
+</section>
+
+<div class="strip">STYLE　 •　 CONFIDENCE　 •　 QUALITY　 •　 FAMILY</div>
+
+<section id="shop">
+  <small>THE COLLECTION</small><h2>Find your next look.</h2>
+  <div class="filters">
+    <button class="active" data-filter="all">All</button><button data-filter="women">Women</button>
+    <button data-filter="sets">Sets</button><button data-filter="accessories">Accessories</button>
+  </div>
+  <div class="grid">
+    <article data-cat="women"><div class="pic p1">ZA VI</div><h3>Signature Look</h3><p>Women · Coming soon</p><button class="order" data-item="Signature Look">Order</button></article>
+    <article data-cat="sets"><div class="pic p2">ZF</div><h3>ZaVi Fam Set</h3><p>Sets · Coming soon</p><button class="order" data-item="ZaVi Fam Set">Order</button></article>
+    <article data-cat="women"><div class="pic p3">STYLE</div><h3>Elegant Collection</h3><p>Women · Coming soon</p><button class="order" data-item="Elegant Collection">Order</button></article>
+    <article data-cat="accessories"><div class="pic p4">ZF</div><h3>Finishing Touch</h3><p>Accessories · Coming soon</p><button class="order" data-item="Finishing Touch">Order</button></article>
+  </div>
+</section>
+
+<section id="about" class="dark">
+  <div class="seal">ZF</div>
+  <div><small>OUR STORY</small><h2>More than clothes.<br>It's a family.</h2>
+  <p>ZaVi Fam is a growing fashion brand built around style, confidence and community. We are starting small, learning every day and building a brand that can grow with our customers.</p>
+  <a class="link" href="#contact">Join the ZaVi Fam →</a></div>
+</section>
+
+<section class="why"><small>WHY ZAVI FAM</small><h2>Simple. Stylish. Personal.</h2>
+<div class="values"><div><b>01</b><h3>Style</h3><p>Looks that help you express your personality.</p></div><div><b>02</b><h3>Confidence</h3><p>Fashion should make you feel as good as you look.</p></div><div><b>03</b><h3>Community</h3><p>A growing family connected by style.</p></div></div></section>
+
+<section id="contact" class="contact"><div><small>LET'S CONNECT</small><h2>Ready to join the family?</h2><p>Follow ZaVi Fam for new drops, styling ideas and behind-the-scenes content.</p></div>
+<div><a class="btn" href="https://instagram.com/zavi_fam" target="_blank">Instagram @zavi_fam</a><a class="btn light" href="mailto:hello@zavifam.com">Email us</a></div></section>
+
+<footer><b>ZaVi Fam</b><span>© <span id="year"></span> · Your style. Your confidence. Your family.</span></footer>
+
+<div id="modal" class="modal"><div class="box"><button id="close">×</button><small>ORDER REQUEST</small><h2 id="title">Order</h2>
+<p>Enter your details and your email app will open with the order request.</p>
+<form id="form"><input id="name" placeholder="Your name" required><input id="size" placeholder="Size" required><input id="color" placeholder="Preferred color"><input id="place" placeholder="City / country" required><button class="btn">Prepare order email</button></form></div></div>
+<script src="script.js"></script>
+</body></html>
